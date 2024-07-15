@@ -1,6 +1,4 @@
-# Rust Leptos Live Coding
-
-## Setup
+# Toolchain Setup
 
 1. Install the Rust's WASM target.
     ```shell
@@ -11,14 +9,3 @@
     ```shell
     cargo install trunk
     ```
-
-3. Install mbBook
-   ```shell
-      cargo install mdbook
-   ```
-
-## Serve
-
-```shell
-trunk serve --release --open
-```
