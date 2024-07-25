@@ -17,8 +17,24 @@
       cargo install mdbook
    ```
 
-## Serve
+## Serve web-app
+
+Run the following command from the repositories root:
 
 ```shell
 trunk serve --release --open
 ```
+
+## Serve book
+
+Navigate into the `doc` directory and run:
+
+```shell
+mdbook serve --open
+```
+
+## Useful resources
+
+- Leptos home page: https://leptos.dev/
+- Leptos book: https://book.leptos.dev/
+- Trunk: https://trunkrs.dev
